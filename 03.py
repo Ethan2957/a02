@@ -36,3 +36,12 @@ def run_tests():
 
 
 def letter_count(message, chars):
+    count = 0
+    meslength = len(message)
+    charslength = len(chars)
+    for char in range(meslength):
+        for charss in range(charslength):
+            if chars in message:
+                count= count +1
+
+    print(count)

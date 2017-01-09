@@ -45,5 +45,15 @@ def run_tests():
 
 
 def season(month):
+    if month in 'decjanfeb':
+        print('Winter')
+    elif month in 'maraprmay':
+        print('Spring')
+    elif month in 'junjulaug':
+        print('Summer')
+    elif month in 'sepoctnov':
+        print('Autumn')
+    else:
+        print('Month not recognised')
 
 

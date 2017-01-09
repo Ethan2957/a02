@@ -37,6 +37,12 @@ Tests:
 """
 
 def mean_weight():
+    amount = input('How many weights do you want?:')
+    for i in range(0, input('How many weights do you want?:')):
+        weight = input('Enter a weight:')
+        mean = mean + weight
+        weight = ''
+    print(mean/3)
 
 
 
